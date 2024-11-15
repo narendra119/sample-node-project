@@ -1,5 +1,10 @@
 const express = require("express")
 const path = require("path")
+require("dotenv").config();
+
+env = process.env
+PORT = env.PORT || 3000
+
 
 app = express()
 
@@ -44,6 +49,6 @@ app.get("/", (req, res) => {
     return res.send("Hello World!")
 })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log("App is Up and Serving on 3000")
 })
