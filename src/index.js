@@ -15,10 +15,11 @@ app.use(express.static(path.join(__dirname, "static")))
 // 0. Setup env var reading - DONE
 // 1. Add sample middleware and test it out - DONE
 // 2. Add sample html files and test it out - DONE
-// 3. Add DB connection logic and test it out - WIP
+// 3. Add DB connection logic and test it out - DONE
 // 4. Add sample models and test it out
 // 5. Integrate third-party APIs and test it out
 // 6. Connect to Azure Cloud and access the Blob Files
+// 7. Install Nodemon - DONE
 // ...
 
 
